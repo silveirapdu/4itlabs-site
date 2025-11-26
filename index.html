@@ -1,11 +1,111 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <title>Teste 4IT Labs</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>4IT Labs Tech</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body style="background: #111; color: white; font-size: 30px; padding: 40px;">
-  <h1>Página funcionando!</h1>
-  <p>Se você está vendo isso, o HTML está OK.</p>
+
+<body class="bg-gray-950 text-gray-100">
+
+  <!-- Header -->
+  <header class="flex justify-between items-center px-8 py-6">
+    <h1 class="text-2xl font-bold">4IT Labs Tech</h1>
+    <nav class="space-x-6 text-gray-300">
+      <a href="#sobre" class="hover:text-white">Sobre</a>
+      <a href="#solucoes" class="hover:text-white">Soluções</a>
+      <a href="#contato" class="hover:text-white">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center py-32 bg-gradient-to-r from-blue-700 to-purple-700">
+    <h2 class="text-5xl font-extrabold mb-4">Tecnologia, Inovação e Impacto Real</h2>
+    <p class="text-xl text-gray-200 max-w-2xl mx-auto">
+      Soluções modernas em TI, software e segurança para impulsionar o seu negócio.
+    </p>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="max-w-4xl mx-auto py-24">
+    <h3 class="text-3xl font-bold mb-6">Missão, Visão e Valores</h3>
+
+    <div class="space-y-8">
+      <div>
+        <h4 class="text-xl font-semibold">Missão</h4>
+        <p class="text-gray-300">
+          Entregar soluções de tecnologia robustas, modernas e acessíveis que conectam pessoas,
+          processos e resultados.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="text-xl font-semibold">Visão</h4>
+        <p class="text-gray-300">
+          Ser referência nacional em soluções de TI, segurança da informação e plataformas SaaS.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="text-xl font-semibold">Valores</h4>
+        <p class="text-gray-300">
+          Excelência • Inovação • Ética • Transparência • Segurança • Simplicidade
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Soluções -->
+  <section id="solucoes" class="bg-gray-900 py-24">
+    <div class="max-w-5xl mx-auto">
+      <h3 class="text-3xl font-bold mb-12 text-center">Nossas Soluções</h3>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+
+        <div class="p-6 bg-gray-800 rounded-xl hover:bg-gray-700 transition">
+          <h4 class="text-xl font-bold mb-3">SaaS Profissional</h4>
+          <p class="text-gray-400">
+            Desenvolvimento e entrega de plataformas SaaS modernas, seguras e escaláveis.
+          </p>
+        </div>
+
+        <div class="p-6 bg-gray-800 rounded-xl hover:bg-gray-700 transition">
+          <h4 class="text-xl font-bold mb-3">Consultoria em TI</h4>
+          <p class="text-gray-400">
+            Governança, infraestrutura, redes, segurança da informação e cloud.
+          </p>
+        </div>
+
+        <div class="p-6 bg-gray-800 rounded-xl hover:bg-gray-700 transition">
+          <h4 class="text-xl font-bold mb-3">Desenvolvimento Sob Medida</h4>
+          <p class="text-gray-400">
+            Software personalizado, integrações, automações e soluções corporativas.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="max-w-4xl mx-auto py-24 text-center">
+    <h3 class="text-3xl font-bold mb-6">Entre em Contato</h3>
+    <p class="text-gray-300 mb-8">
+      Estamos prontos para ajudar a transformar sua tecnologia.
+    </p>
+
+    <a href="mailto:contato@4itlabs.com"
+       class="bg-blue-600 px-10 py-4 text-lg rounded-lg font-semibold hover:bg-blue-700 transition">
+      Enviar Email
+    </a>
+  </section>
+
+  <footer class="text-center py-6 text-gray-500 text-sm">
+    © 2025 4IT Labs Tech – Todos os direitos reservados.
+  </footer>
+
 </body>
 </html>
+
+
